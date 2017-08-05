@@ -1,0 +1,36 @@
+h1 {
+	
+	color: white;
+	background-color: #4aaaa5;
+	height: 75px;
+	width: 175px;
+	text-align: center;
+	margin-top: -10px;
+	margin-left: 50px;
+	padding-top: 23px;
+	float: left;
+}
+
+h2 {
+
+	color: #4aaaa5;
+	text-align: center;
+	border: dotted;
+}
+
+.class1 {
+
+	float: right;
+}
+
+.class2 {
+
+	border: dotted;
+
+}
+
+
+.classHeader {
+
+	
+}
