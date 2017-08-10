@@ -11,11 +11,15 @@ h1 {
 	float: left;
 }
 
-.aboutHeader {
+
+.mainheader {
 
 	color: #4aaaa5;
 	text-align: left;
+	font-size: bold;
 }
+
+
 
 .class1 {
 	float: right;
@@ -205,6 +209,7 @@ body {
 .textinput {
 
 	width: 100%;
+	color: gray;
 
 }
 
@@ -222,13 +227,14 @@ body {
 
 .submitbutton {
 
-	height: 30px;
-	width: 85px;
-	margin-top: 5%;
+	height: 35px;
+	width: 90px;
+	margin-top: 2%;
 	margin-bottom: 5%;
 	background-color: #4aaaa5;
 	border-style: solid;
 	border-color: #4aaaa5;
+	color: white;
 
 }
 /*Code for future flex ability*/

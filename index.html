@@ -2,7 +2,9 @@
 <html>
 
 <head>
-	<title>	</title>
+	<title>Josh S.</title>
+
+	<script src="https://www.w3schools.com/lib/w3.js"></script>
 
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
@@ -12,25 +14,17 @@
 <div class="content">
 
 <header>
-	<div class="header">
-		<h1>Josh S.</h1>
+	
+	<!--Header (Include)-->
+	<div w3-include-html="https://raw.githubusercontent.com/UniversalStudentOfLife/Basic-Portfolio/master/header.html"></div> 
 
-		<div class="navigation">	
-				<a href="index.html">About</a>
-				&nbsp;|&nbsp;
-				<a href="portfolio.html">Portfolio</a>
-				&nbsp;|&nbsp;
-				<a href="contact.html">Contact</a>
-		</div>
-
-	</div>
 </header>
 	
 
 	<!-- About me section -->
 	<div class="aboutMe content">
 
-		<h2 class="aboutHeader"> About Me </h2>
+		<h2 class="mainheader"> About Me </h2>
 
 		<hr>
 		
@@ -47,28 +41,18 @@
 	</div>
 
 
-	<!-- Connect with Me -->
-	<div class="connectme">
+	<!-- Connect with Me (include). I am using includes to create a central location to make changes across all pages and to reduce repetative code. -->
+	<div w3-include-html="https://raw.githubusercontent.com/UniversalStudentOfLife/Basic-Portfolio/master/sidebar.html"></div> 
 
-		<h3>Connect with Me</h3>
-		
-		<hr>
-		<br>
-		
-		<a href="#"> <img class="linkedimage" src="assets/images/github_logo.png"></a>
-		<a href="#"> <img class="linkedimage" src="assets/images/linkedin_logo.png"></a>
-		<a href="#"> <img class="linkedimage" src="assets/images/stackedoverflow_logo.png"></a>	
 
-	</div>
-
+	<script>
+		w3.includeHTML();
+	</script>
 
 	</div>
 </body>
 
-<footer class="footer">
-	
-	<p> &copy; Copyright 2017 Josh S.</p>
-</footer>
 
+<div w3-include-html="https://raw.githubusercontent.com/UniversalStudentOfLife/Basic-Portfolio/master/footer.html"></div> 
 
 </html>
