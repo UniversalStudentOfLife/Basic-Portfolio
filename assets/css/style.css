@@ -1,3 +1,5 @@
+
+/*Handles the website's personnels's name at the top of the page*/
 h1 {
 	
 	color: white;
@@ -11,7 +13,7 @@ h1 {
 	float: left;
 }
 
-
+ /*Adds a header to all of pages files that aquire them*/
 .mainheader {
 
 	color: #4aaaa5;
@@ -20,12 +22,12 @@ h1 {
 }
 
 
-
 .class1 {
 	float: right;
 }
 
-/* BEGIN link section*/
+/* Handles the "connect with me" links */
+/* BEGIN navigation link section*/
 .navigation {
 
 	text-align: center;
@@ -49,18 +51,21 @@ a:visited {
     background-color: transparent;
     text-decoration: none;
 }
+
 a:hover {
-    color: red;
+    color: #6699ff;
     background-color: transparent;
     text-decoration: none;
 }
+
 a:active {
-    color: yellow;
+    color: red;
     background-color: transparent;
     text-decoration: none;
 }
 /* END link section*/
 
+/*Handles formatting for the "About Me" page*/
 .aboutMe {
 
 	border: thin;
@@ -79,6 +84,7 @@ a:active {
 	margin-bottom: 20px;
 }
 
+/*Handles formatting for the "Portfolio" page*/
 .portfolio {
 
 	border: thin;
@@ -98,6 +104,7 @@ a:active {
 
 }
 
+/*Handles formatting for the "Contact" page*/
 .contact {
 
 	border: thin;
@@ -117,7 +124,7 @@ a:active {
 
 }
 
-
+/*Handles formatting for the, "Portfolio" page*/
 .connectme {
 
 	position: relative;
@@ -137,6 +144,7 @@ a:active {
 
 }
 
+/*Handles formatting for the linked images*/
 .linkedimage {
 
 	text-align: center
@@ -146,6 +154,7 @@ a:active {
 
 }
 
+/*Handles formatting for the, "Profile" image*/
 .profileimage {
 
 	width: 20%;
@@ -156,7 +165,7 @@ a:active {
 
 }
 
-
+/*Handles formatting for the, "Portfolio" image*/
 .portfolioimage {
 
 	width: 26%;
@@ -168,6 +177,7 @@ a:active {
 
 }
 
+	/*Handles formatting for the, "header of the page*/
 .header {
 	position: absolute;
 	top: 0;
@@ -181,6 +191,7 @@ a:active {
 	
 }
 
+/*Handles formatting for the, "footer" part of the page*/
 .footer {
 	position: absolute;
 	bottom: 0; 
@@ -199,6 +210,7 @@ a:active {
 	position: fixed;
 }
 
+/*Handles formatting for the, "body" of the page*/
 body {
 
 	background-image: url("../images/concrete_seamless.png");
@@ -206,6 +218,8 @@ body {
 	flex-direction: column;
 }
 
+/* Begin all form CSS*/
+/*Handles formatting for the, "body" of the page*/
 .textinput {
 
 	width: 100%;
@@ -236,7 +250,8 @@ body {
 	border-color: #4aaaa5;
 	color: white;
 
-}
+}*/ 
+
 /*Code for future flex ability*/
 .content {
 
