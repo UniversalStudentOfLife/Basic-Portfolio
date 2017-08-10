@@ -63,7 +63,7 @@ a:active {
 	border-color: gray;
 	position: relative;
 	left: 7%;
- 	top: 100px;
+ 	top: 150px;
 	height: 50%;
 	max-width: 650px;
 	background-color: white;
@@ -84,7 +84,7 @@ a:active {
 	text-align: center;
 	height: 50%;
 	max-width: 270px;
-	top: 100px;
+	top: 150px;
 	float: left;
 	left:10%;
 	color: #4aaaa5;

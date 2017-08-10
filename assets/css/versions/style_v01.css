@@ -7,11 +7,11 @@ h1 {
 	text-align: center;
 	margin-top: -10px;
 	margin-left: 100px;
-	padding-top: 24px;
+	padding-top: 23px;
 	float: left;
 }
 
-.aboutHeader {
+h2 {
 
 	color: #4aaaa5;
 	text-align: left;
@@ -21,7 +21,6 @@ h1 {
 	float: right;
 }
 
-/* BEGIN link section*/
 .navigation {
 
 	text-align: center;
@@ -30,79 +29,25 @@ h1 {
 	margin-top: 30px;
 	margin-right: 150px;
 	position: relative;
-	color: green;
-	bottom: 10px;
-}
 
-a:link {
-    color: gray;
-    background-color: transparent;
-    text-decoration: none;
 }
-
-a:visited {
-    color: gray;
-    background-color: transparent;
-    text-decoration: none;
-}
-a:hover {
-    color: red;
-    background-color: transparent;
-    text-decoration: none;
-}
-a:active {
-    color: yellow;
-    background-color: transparent;
-    text-decoration: none;
-}
-/* END link section*/
 
 .aboutMe {
 
 	border: thin;
 	border-color: gray;
 	position: relative;
-	left: 7%;
- 	top: 100px;
+	left: 20%;
+ 	top: 150px;
 	height: 50%;
-	max-width: 650px;
+	width: 50%;
 	background-color: white;
 	float: left;
 	z-index: -1;
 	position: 100px 100px;
 	padding-left: 20px;
 	padding-right: 20px;
-	margin-bottom: 20px;
 
-
-}
-
-
-.connectme {
-
-	position: relative;
-	text-align: center;
-	height: 50%;
-	max-width: 270px;
-	top: 100px;
-	float: left;
-	left:10%;
-	color: #4aaaa5;
-	background-color: white;
-	padding-left: 20px;
-	padding-right: 20px;
-	margin: auto;
-	display: inline-block;
-
-
-}
-
-.linkedimage {
-
-	text-align: center
-	width: 50px;
-	height: 50px;
-	padding: 0 10px 20px 0;
 
 }
 
@@ -110,7 +55,7 @@ a:active {
 
 	width: 20%;
 	height: 20%;
-	padding: 0px 20px 20px 0;
+	padding: 0 20px 20px 0;
 	float: left;
 
 
@@ -122,7 +67,7 @@ a:active {
 	width: 100%;
 	background-color: white;
 	border-color: #cccccc;
-	border-bottom: 1px solid;
+	border-bottom: thin;
 	height: 60px;
 	left: 0;
 
@@ -138,7 +83,7 @@ a:active {
 	color: white;
 	font-family: 'Helvetica Neue';
 	border-top: 6px solid;
-	border-top-color: #4aaaa5;
+	border-top-color: #4\aaaa5;
 }
 
 .menubar {
@@ -146,13 +91,25 @@ a:active {
 	position: fixed;
 }
 
+.connectme {
+
+	top: 50%;
+	float: right;
+
+}
+
 body {
 
 	background-image: url("../images/concrete_seamless.png");
 }
 
-.paragraph {
+p {
 
 	position: relative;
 	white-space: normal; 
+}
+
+.link {
+
+
 }
