@@ -250,46 +250,4 @@ body {
 	border-color: #4aaaa5;
 	color: white;
 
-}*/ 
-
-/* ALL @MEDIA Code to handle responsive below*/
-
-@media only screen and (max-width: 980px) {
-    .aboutMe {
-        background-color: lightblue;
-        max-width: 100%;
-    }
-
-       .connectme {
-        background-color: lightblue;
-        max-width: 100%;
-    }
-}
-
-@media only screen and (max-width: 768px) {
-    .aboutMe {
-        background-color: lightgreen;
-        max-width: 100%;
-    }
-
-	.connectme {
-        background-color: lightgreen;
-        max-width: 100%;
-        
-
-}
-
-
-@media only screen and (max-width: 640px) {
-    .aboutMe {
-        background-color: lightpink;
-        max-width: 100%;
-    }
-
- .connectme {
-        background-color: lightpink;
-        max-width: 100%;
-    }
-
-
 }
